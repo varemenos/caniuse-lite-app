@@ -1,2 +1,9 @@
 @import 'vendor/normalize';
 
+@import 'helpers/vars';
+@import 'helpers/functions';
+
+html,
+body {
+  background-color: get-color('grey');
+}
