@@ -8,3 +8,14 @@ html,
 body {
   background-color: get-color('grey');
 }
+
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+}
