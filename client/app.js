@@ -7,6 +7,8 @@ import store from './utils/store'
 
 import SearchRoute from './routes/search'
 
+import 'style/index.scss'
+
 ReactDOM.render(
   <Provider store={store}>
     <Router>

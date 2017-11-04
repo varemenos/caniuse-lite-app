@@ -4,6 +4,8 @@
 @import 'helpers/vars';
 @import 'helpers/functions';
 
+@import 'layout/autosuggest';
+
 html,
 body {
   background-color: get-color('grey');
