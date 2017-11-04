@@ -5,10 +5,13 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import store from './utils/store'
 
+import SearchRoute from './routes/search'
+
 ReactDOM.render(
   <Provider store={store}>
     <Router>
       <Switch>
+        <Route exact path='/' component={SearchRoute} />
       </Switch>
     </Router>
   </Provider>,
