@@ -1,0 +1,26 @@
+[class*='status--'] {
+  display: block;
+  padding: 10px 20px;
+}
+
+.status--ls,
+.status--rec {
+  background-color: get-color('green');
+}
+
+.status--pr {
+  background-color: lighten(get-color('green'), 20%);
+}
+
+.status--wd {
+  background-color: get-color('red');
+}
+
+.status--cr {
+  background-color: lighten(get-color('red'), 20%);
+}
+
+.status--unoff,
+.status--other {
+  background-color: get-color('grey');
+}
